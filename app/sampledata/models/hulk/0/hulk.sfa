@@ -1,0 +1,111 @@
+{
+  materials: [
+    {
+      name: '40_mesh3_0_0_0',
+      parameters: [
+        {
+          baseColor: 'd1',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '41_mesh1_0_0_0_root_root',
+      parameters: [
+        {
+          baseColor: 'd2',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '41_mesh2_0_0_0',
+      parameters: [
+        {
+          baseColor: 'd3',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/hulk/0/hulk.obj',
+    name: 'hulk',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/hulk/0/d3.png',
+      name: 'd3',
+      pipeline_name: 'd3.png',
+    },
+    {
+      file: 'sampledata/models/hulk/0/d2.png',
+      name: 'd2',
+      pipeline_name: 'd2.png',
+    },
+    {
+      file: 'sampledata/models/hulk/0/d1.png',
+      name: 'd1',
+      pipeline_name: 'd1.png',
+    },
+  ],
+  version: '0.54:2',
+}

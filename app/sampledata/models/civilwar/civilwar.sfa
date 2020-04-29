@@ -1,0 +1,586 @@
+{
+  materials: [
+    {
+      name: 'Material.001',
+      parameters: [
+        {
+          baseColor: 'captain_pant.tga',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#102',
+      parameters: [
+        {
+          baseColor: '42',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#103',
+      parameters: [
+        {
+          baseColor: 'captain_arm_and_torso.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#107',
+      parameters: [
+        {
+          baseColor: 'captain_pant.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#109',
+      parameters: [
+        {
+          baseColor: 'captain_helmet.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#113',
+      parameters: [
+        {
+          baseColor: 'captain_eyelash.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#114',
+      parameters: [
+        {
+          baseColor: 'captain_face.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#115',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#35',
+      parameters: [
+        {
+          baseColor: 'bottom',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#36',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#37',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#38',
+      parameters: [
+        {
+          baseColor: 'platform1',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material__52',
+      parameters: [
+        {
+          baseColor: 'Body.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material__60',
+      parameters: [
+        {
+          baseColor: 'Legs.tga',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_dead_123456Default',
+      parameters: [
+        {
+          baseColor: 'DPROP_DeadpoolSword_TEXSET_Color_NormX',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_dead_123456Material2',
+      parameters: [
+        {
+          baseColor: 'CHR_Deadpool_Body_TEXTSET_Color_NormX',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_dead_123456Material3',
+      parameters: [
+        {
+          baseColor: 'CHR_Deadpool_Misc_TEXTSET_Color_NormX',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_dead_123456Material4',
+      parameters: [
+        {
+          baseColor: 'WEP_MP7_TEXTSET_Color_NormX',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_204204204',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/civilwar/civilwar.obj',
+    name: 'civilwar',
+    recenter: 'root',
+    scale: 0.52796100000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/civilwar/CHR_Deadpool_Body_TEXTSET_Color_NormX.jpg',
+      name: 'CHR_Deadpool_Body_TEXTSET_Color_NormX',
+      pipeline_name: 'CHR_Deadpool_Body_TEXTSET_Color_NormX.jpg',
+    },
+    {
+      file: 'sampledata/models/civilwar/DPROP_DeadpoolSword_TEXSET_Color_NormX.jpg',
+      name: 'DPROP_DeadpoolSword_TEXSET_Color_NormX',
+      pipeline_name: 'DPROP_DeadpoolSword_TEXSET_Color_NormX.jpg',
+    },
+    {
+      file: 'sampledata/models/civilwar/Body.tga.png',
+      name: 'Body.tga',
+      pipeline_name: 'Body.tga.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/platform1.jpg',
+      name: 'platform1',
+      pipeline_name: 'platform1.jpg',
+    },
+    {
+      file: 'sampledata/models/civilwar/captain_face.tga.png',
+      name: 'captain_face.tga',
+      pipeline_name: 'captain_face.tga.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/captain_eyelash.tga.png',
+      name: 'captain_eyelash.tga',
+      pipeline_name: 'captain_eyelash.tga.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/captain_arm_and_torso.tga.png',
+      name: 'captain_arm_and_torso.tga',
+      pipeline_name: 'captain_arm_and_torso.tga.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/CHR_Deadpool_Misc_TEXTSET_Color_NormX.jpg',
+      name: 'CHR_Deadpool_Misc_TEXTSET_Color_NormX',
+      pipeline_name: 'CHR_Deadpool_Misc_TEXTSET_Color_NormX.jpg',
+    },
+    {
+      file: 'sampledata/models/civilwar/Legs.tga.png',
+      name: 'Legs.tga',
+      pipeline_name: 'Legs.tga.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/42.png',
+      name: '42',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '42.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/captain_helmet.tga.png',
+      name: 'captain_helmet.tga',
+      pipeline_name: 'captain_helmet.tga.png',
+    },
+    {
+      file: 'sampledata/models/civilwar/WEP_MP7_TEXTSET_Color_NormX.jpg',
+      name: 'WEP_MP7_TEXTSET_Color_NormX',
+      pipeline_name: 'WEP_MP7_TEXTSET_Color_NormX.jpg',
+    },
+    {
+      file: 'sampledata/models/civilwar/bottom.jpg',
+      name: 'bottom',
+      pipeline_name: 'bottom.jpg',
+    },
+    {
+      file: 'sampledata/models/civilwar/captain_pant.tga.png',
+      name: 'captain_pant.tga',
+      pipeline_name: 'captain_pant.tga.png',
+    },
+  ],
+  version: '0.54:2',
+}

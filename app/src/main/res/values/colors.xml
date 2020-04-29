@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="yellow">#FFC107</color>
+    <color name="background">#BDBDBD</color>
+    <color name="tray_yellow">#FF9800</color>
+    <color name="text">#FFFFFF</color>
+    <color name="ripple_color">#FFE0B2</color>
+
+    <color name="orange">#FFE0B2</color>
+    <color name="graViolet">#42275a</color>
+    <color name="endViolet">#734b6d</color>
+
+
+</resources>

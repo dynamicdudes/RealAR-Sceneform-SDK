@@ -1,0 +1,121 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: "com.google.ar.sceneform.plugin"
+
+sceneform.asset(
+        'sampledata/models/Jet.obj',
+        'default',
+        'sampledata/models/Jet.sfa',
+        'src/main/res/raw/jet'
+)
+
+
+sceneform.asset(
+        'sampledata/models/civilwar/civilwar.obj',
+        'default',
+        'sampledata/models/civilwar/civilwar.sfa',
+        'src/main/res/raw/war'
+)
+
+sceneform.asset(
+        'sampledata/models/hulk/0/hulk.obj',
+        'default',
+        'sampledata/models/hulk/0/hulk.sfa',
+        'src/main/res/raw/hulk'
+)
+
+sceneform.asset(
+        'sampledata/models/Wolf/Wolf_One_obj.obj',
+        'default',
+        'sampledata/models/Wolf/Wolf_One_obj.sfa',
+        'src/main/res/raw/foxmain'
+)
+
+sceneform.asset(
+        'sampledata/models/hammer/thor.obj',
+        'default',
+        'sampledata/models/hammer/thor.sfa',
+        'src/main/res/raw/thor'
+)
+
+
+
+sceneform.asset(
+        'sampledata/models/CoffeePlant.obj',
+        'default',
+        'sampledata/models/CoffeePlant.sfa',
+        'src/main/res/raw/plant'
+)
+
+sceneform.asset(
+        'sampledata/models/spiderman/M-CoC_iOS_HERO_Peter_Parker_Spider-Man_Stark_Enhanced.obj',
+        'default',
+        'sampledata/models/spiderman/M-CoC_iOS_HERO_Peter_Parker_Spider-Man_Stark_Enhanced.sfa',
+        'src/main/res/raw/spiderman'
+)
+
+
+
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.dynamicdudes.realar"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    def lifecycle_version = "2.2.0"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //ARCore Dependency
+    implementation 'com.google.ar:core:1.16.0'
+
+    // Provides ArFragment, and other UX resources.
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+
+    // Alternatively, use ArSceneView without the UX dependency.
+    implementation 'com.google.ar.sceneform:core:1.15.0'
+
+    //Animation Dependency
+    implementation "com.google.ar.sceneform:animation:1.15.0"
+
+    implementation 'com.google.android.material:material:1.2.0-alpha05'
+
+    //Live Data dependency
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+
+
+}
