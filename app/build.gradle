@@ -26,13 +26,6 @@ sceneform.asset(
 )
 
 sceneform.asset(
-        'sampledata/models/Wolf/Wolf_One_obj.obj',
-        'default',
-        'sampledata/models/Wolf/Wolf_One_obj.sfa',
-        'src/main/res/raw/foxmain'
-)
-
-sceneform.asset(
         'sampledata/models/hammer/thor.obj',
         'default',
         'sampledata/models/hammer/thor.sfa',
@@ -66,8 +59,8 @@ android {
         applicationId "com.dynamicdudes.realar"
         minSdkVersion 24
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

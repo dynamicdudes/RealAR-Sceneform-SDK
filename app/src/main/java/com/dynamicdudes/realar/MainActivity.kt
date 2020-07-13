@@ -18,7 +18,10 @@ import com.dynamicdudes.realar.SupportLibrary.PhotoSaver
 import com.dynamicdudes.realar.SupportLibrary.VideoRecorder
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.ar.core.Anchor
+import com.google.ar.core.Config
+import com.google.ar.core.Session
 import com.google.ar.sceneform.AnchorNode
+import com.google.ar.sceneform.ArSceneView
 import com.google.ar.sceneform.Node
 import com.google.ar.sceneform.collision.Box
 import com.google.ar.sceneform.math.Quaternion
@@ -36,7 +39,6 @@ private const val DOUBLE_TAP_TIME = 1000L
 class MainActivity : AppCompatActivity() {
 
     private val models = mutableListOf(
-        Model(R.drawable.fox, "Fox", R.raw.foxmain),
         Model(R.drawable.jet, "Jet", R.raw.jet),
         Model(
             R.drawable.plant,
@@ -119,6 +121,7 @@ class MainActivity : AppCompatActivity() {
     ViewRenderable - text appearing about the model to delete
      */
     private fun loadModels(callback: (ModelRenderable, ViewRenderable) -> Unit) {
+
         val modelRenderable = ModelRenderable.builder()
             .setSource(this, selectModel.modelResourceId)
             .build()
@@ -251,8 +254,6 @@ class MainActivity : AppCompatActivity() {
             setBackgroundResource(R.drawable.my_button)
             setTextColor(Color.WHITE)
         }
-
     }
-
 
 }
